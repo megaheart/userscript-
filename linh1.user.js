@@ -13,6 +13,10 @@
 //@grant none
 // ==UserScript==
 
+(function () {
+
+    'use strict';
 $(document).ready(function(){
 $("._2s1x ._2s1y").css({"background-color":" #179a15","border-bottom":"1px solid #179a15"});
 });
+}());
